@@ -1,25 +1,90 @@
 var questions = [
     {
-        question: "color of sky ?",
-        answers: ["blue","green","red","black"],
-        correctAns: "blue",
+        question: "A French culinary artist, known as “The King of Chefs and the Chef of Kings?",
+        answers: ["Marie-Antoine Carême","Paul Bocuse", "Joël Robuchon","Auguste Escoffier","Jacques Pépin"],
+        correctAns: "Auguste Escoffier",
         correctImg: "",
         wrongImg: ""
+        // https://www.escoffieronline.com/wp-content/uploads/2014/12/escoffier-chef.jpg
     },
     {
-        question: "color of sky ?",
-        answers: ["blue","green","red","black"],
-        correctAns: "blue"
+        question: "How many French Mother Sauces are there ?",
+        answers: ["7", "3", "6", "9", "5"],
+        correctAns: "5",
+        correctImg: "",
+        wrongImg: ""
+        // https://guide.michelin.com/hk/en/article/dining-in/the-5-mother-sauces-of-french-cuisine
     },
     {
-        question: "color of sky ?",
-        answers: ["blue","green","red","black"],
-        correctAns: "blue"
+        question: "What country produces more than half of the world's olive oil ?",
+        answers: ["Spain","Greece","France","Italy", "Morroco"],
+        correctAns: "Spain",
+        correctImg: "",
+        wrongImg: ""
+        // https://www.worldatlas.com/articles/leading-olive-producing-countries.html
+        // https://www.southeusummit.com/wp-content/uploads/2018/09/Spanish-Olive-Oil.jpg
     },
+    {
+        question: "Which of these ingredients is an emulsifier ?",
+        answers: ["Soy Sauce", "Honey", "Mustard", "Vinegar", "Oil"],
+        correctAns: "Mustard",
+        correctImg: "",
+        wrongImg: ""
+        // https://images2.minutemediacdn.com/image/upload/c_crop,h_1124,w_1999,x_0,y_95/f_auto,q_auto,w_1100/v1564804263/shape/mentalfloss/62747-gettyimages-961662908_0.jpg
+    },
+    {
+        question: "Which of these ingredients isn't in a Mirepoix ?",
+        answers: ["Onion", "Garlic", "Celery", "Carrot", ],
+        correctAns: "Garlic",
+        correctImg: "",
+        wrongImg: ""
+        // https://www.epicurus.com/food/recipes/mirepoix/1011/
+    },
+    {
+        question: "What Temperature should you cook Chicken to ?",
+        answers: ["125&#176 F", "155&#176 F", "165&#176 F","185&#176 F","195&#176 F" ],
+        correctAns: "165&#176 F",
+        correctImg: "",
+        wrongImg: ""
+        // https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/5/20/0/FN_Infographic-Meat-and-Poultry-Temperature-Guide-Promo.jpg.rend.hgtvcom.616.462.suffix/1432137784318.jpeg
+        // https://www.foodnetwork.com/grilling/grilling-central-how-tos/articles/meat-and-poultry-temperature-guide
+    },
+    {
+        question: "A Genoise is a type of what ?",
+        answers: ["Frosting", "Dough", "Sauce", "Cake", "Donut" ],
+        correctAns: "Cake",
+        correctImg: "",
+        wrongImg: ""
+        // https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/gnoise_sponge_with_69988_16x9.jpg
+        // https://www.bbc.co.uk/food/recipes/gnoise_sponge_with_69988
 
+    },
+    {
+        question: "When meat or vegetables are browned in a pan. What are the bits of caramelized juices that remain called?",
+        answers: ["Fond", "Glazing", "Aromatics", "Residue", "Bouillon" ],
+        correctAns: "Fond",
+        correctImg: "",
+        wrongImg: ""
+        // http://foodofonesown.blogspot.com/2016/06/love-your-ugly-fond.html?m=0
+    },
+    {
+        question: "When when apples, artichokes, or potatoes are peeled and sliced, the bits will turn brown if not used immediately. To prevent this, they may be saoked in water mixed with lemon juice or white vinegar. What is this preventative measure called?",
+        answers: ["Blanching", "Steeping", "Reconstituting", "Acidulation", "Tempering" ],
+        correctAns: "Fond",
+        correctImg: "",
+        wrongImg: ""
+        // https://www.finecooking.com/app/uploads/assets/uploads/posts/13872/051129088-08-how-to-prep-baby-artichokes_xlg.jpg
+    },
+    {
+        question: "When a chef juliennes a fruit or vegetable, the results look like which of the following ?",
+        answers: ["Coins", "Matchsticks", "Cubes", "Crowns", "Diamonds" ],
+        correctAns: "Matchsticks",
+        correctImg: "",
+        wrongImg: ""
+        // https://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2016/05/Julienne-Veggies-Mandoline.jpg?resize=1280%2C%20560&ssl=1
+        // http://3.bp.blogspot.com/-PKqOWZc2z44/UX6mT-pGwzI/AAAAAAAAAO4/kUzCQxhVO4E/s1600/knife+skills.jpg
+    },
 ]
-alert("hi")
-console.log("connected");
 
 //global variables
 
@@ -87,5 +152,6 @@ function displayQuestion(){
       }
 }
 function timeup(){
+    alert("Time is up!");
     console.log("time up");
 }
