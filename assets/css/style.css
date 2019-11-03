@@ -1,52 +1,40 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    .container {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 28px;
-    width: auto;
-    }
-         
-    .card-header {
-    color: goldenrod;
-    background-image: url(../images/Savoy_Kitchen_Background.jpg);
-    background-size: 100%;
-    font-size: 28px;
-    width: auto;
-    height: 400px;
-    }
-           
-    .styled {
-        border: 0;
-        line-height: 2.5;
-        padding: 0 20px;
-        font-size: 1rem;
-        text-align: center;
-        color: #fff;
-        text-shadow: 1px 1px 1px #000;
-        border-radius: 10px;
-        background-color: rgba(220, 0, 0, 1);
-        background-image: linear-gradient(to top left,
-                                          rgba(0, 0, 0, .2),
-                                          rgba(0, 0, 0, .2) 30%,
-                                          rgba(0, 0, 0, 0));
-        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                    inset -2px -2px 3px rgba(0, 0, 0, .6);
-    }
-    
-    .styled:hover {
-        background-color: rgba(255, 0, 0, 1);
-    }
-    
-    .styled:active {
-        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                    inset 2px 2px 3px rgba(0, 0, 0, .6);
-    }
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(194, 211, 226);
+text-align: center;
+}
 
-    .h2 {
-        margin-bottom: 200px;
-    }
-    
+.container {
+margin-top: 20px;
+margin-bottom: 10px;
+text-align: center;
+font-size: 28px;
+width: auto;
+}
+	 
+.card-header {
+color: goldenrod;
+background-image: url(../images/Savoy_Kitchen_Background.jpg);
+margin-bottom: 0px;
+background-size: 100%;
+width: auto;
+height: 450px;
+text-align: left;
+font-style: italic;
+padding-left: 20px;
+font-size: 40px;
+}
+
+.card {
+margin-bottom: 20px;
+}
+	
+.text-muted{
+	color: blue;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}

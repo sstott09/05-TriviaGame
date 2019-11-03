@@ -2,34 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- jQuery -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Culinary Trivia</title>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
 <body>
-    <div class="card">
-        <div class="card-header">Culinary Trivia Game</div>
-    </div>
+  <div class="card">
+    <div class="card-header">Culinary Trivia Game...</div>
 
     <div class="container">
-        <div class="sub-container">
-            <div class="quiz-area">
-                <button id="start" class="favorite styled">Lets Begin</button>
-            </div>
-        </div>
     </div>
+    <p id="question" class="lead"></p>
+  </div>
+  <div id="results">
+  </div>
+  </div>
 
-    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+  <div id="choices" class="text-center">
+    <button id="start" class="btn btn-info btn-lg">Start Game</button>
+    <div id="options">
+
+    </div>
+    <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+
+  </div>
+  </div>
+
+  </div> <!-- /container -->
+
+  <!-- jQuery CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"></script>
+  <!-- Javascript -->
+  <script src="./assets/js/app.js"></script>
+
+
 </body>
 
 </html>
