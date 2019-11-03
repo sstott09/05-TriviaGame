@@ -26,7 +26,7 @@ $(document).ready(function () {
       q6: 'What Temperature should you cook Chicken to?',
       q7: "A Genoise is a type of what?",
       q8: "When meat or vegetables are browned in a pan. What are the bits of caramelized juices that remain called?",
-      q9: "When when apples, artichokes, or potatoes are peeled and sliced, the bits will turn brown if not used immediately. To prevent this, they may be soaked in water mixed with lemon juice or white vinegar. '~n~_~_' What is this preventative measure called?",
+      q9: "When when apples, artichokes, or potatoes are peeled and sliced, the bits will turn brown if not used immediately. To prevent this, they may be soaked in water mixed with lemon juice or white vinegar. What is this preventative measure called?",
       q10: "When a chef juliennes a fruit or vegetable, the results look like which of the following ?"
     },
     options: {
